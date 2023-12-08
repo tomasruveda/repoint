@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(226, 64, 43);
+}
+header nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header nav a {
+  color: rgb(133, 32, 32);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  text-decoration: none;
+}
+header nav a:hover {
+  color: rgb(133, 32, 32);
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .tarjetas {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 3px;
+  transition: box-shadow 0.3px ease-in-out;
+}
+main .tarjetas:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+main .tarjetas img {
+  width: 100%;
+  height: fit-content;
+}
+
+footer {
+  background-color: blueviolet;
+}
+footer nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+footer nav a {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  text-decoration: none;
+}
+footer nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */

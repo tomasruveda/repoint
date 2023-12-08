@@ -1,0 +1,31 @@
+/*
+
+diferentes manreras de dar estilos a nuestras etiquetas
+
+por elemento, llamado etiqueta
+ 
+por atributo de clase
+
+*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+header{
+    /* propiedades: valores; */
+    background-color: cadetblue;
+}
+header > nav{
+    text-align: center;
+}
+
+header > nav > a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    margin: 10px;
+}

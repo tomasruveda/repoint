@@ -1,0 +1,22 @@
+$color: rgb(133, 32, 32);
+$color-fondo: rgb(226, 64, 43);
+
+header{
+    background-color: $color-fondo;
+    nav{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        a{
+            color: $color;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: x-large;
+            text-decoration: none;
+            &:hover{
+                color: $color;
+                text-decoration: underline;
+            }
+        }
+    }
+}
